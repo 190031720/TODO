@@ -1,50 +1,62 @@
-.addList{
+.AL {
 
-    width: 1500px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.addList {
+
+    width: 1200px;
     height: 75px;
-    padding-left: 20px;
-    padding-right: 40px;
-    margin: 8px 0;
-    box-sizing: border-box;
     font-family: 'Helvetica Neue';
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
-    line-height: 61px;
-    
+
+
+
 }
 
-
-.lists{
-list-style-type: none;
-width: 1300px;
-height: 50px;
-
-background: #F9AC66;
-border-radius: 5px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 70px;
-line-height: 50px;
-text-align: center;
-font-size: 25px;
-color: #000000;
-margin-top: 50px;
+.btn-light {
+    width: 50px;
+    background-color: white;
+    border-color: white;
+    height: 75px;
+    border-radius: 3%;
 }
 
-.list
-{
-    display : grid;
-    place-items: center;
+.input-group {
+    width: 1300px;
+    height: 50px;
+    background: #F9AC66;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 70px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 50px;
+    font-size: 25px;
+    color: #000000;
+
 }
 
+span {
+    flex: auto;
+    padding-left: 5px;
+    justify-content: start;
+}
 
+.buttons {
+    display: flex;
+    justify-content: flex-start;
 
+    border-color: #F9AC66;
+    border: #F9AC66;
 
-
-
-
-
-
-
-
+}

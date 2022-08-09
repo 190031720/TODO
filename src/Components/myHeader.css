@@ -1,14 +1,15 @@
-.myHeader{
+.myHeader {
     /* Header */
 
-position: absolute;
-width: 1550px;
-height: 84px;
-left: 0px;
-top: 0px;
-background: #ED6B5B;
-text-align: center;
-font-family: 'GRIFTER';
-font-style: normal;
-color: #FFFFFF;
+
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    background: #ED6B5B;
+    font-family: 'Helvetica Neue';
+    font-style: Bold;
+    color: #FFFFFF;
 }
