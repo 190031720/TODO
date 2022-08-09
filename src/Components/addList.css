@@ -1,0 +1,50 @@
+.addList{
+
+    width: 1500px;
+    height: 75px;
+    padding-left: 20px;
+    padding-right: 40px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    
+}
+
+
+.lists{
+list-style-type: none;
+width: 1300px;
+height: 50px;
+
+background: #F9AC66;
+border-radius: 5px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 70px;
+line-height: 50px;
+text-align: center;
+font-size: 25px;
+color: #000000;
+margin-top: 50px;
+}
+
+.list
+{
+    display : grid;
+    place-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+

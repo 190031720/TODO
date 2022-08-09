@@ -1,0 +1,14 @@
+.myHeader{
+    /* Header */
+
+position: absolute;
+width: 1550px;
+height: 84px;
+left: 0px;
+top: 0px;
+background: #ED6B5B;
+text-align: center;
+font-family: 'GRIFTER';
+font-style: normal;
+color: #FFFFFF;
+}
